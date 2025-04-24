@@ -1,0 +1,32 @@
+.example-block-container {
+    border: 1px solid #ddd; /* 轻微的边框 */
+    border-radius: 8px; /* 圆角 */
+    padding: 20px; /* 内边距 */
+    margin-bottom: 20px; /* 底部外边距 */
+    background-color: #f9f9f9; /* 轻微的背景色 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 轻微的阴影 */
+    font-family: sans-serif; /* 使用常见的无衬线字体 */
+  }
+  
+  .example-block-question,
+  .example-block-answer {
+    margin-bottom: 15px; /* 问题和回答之间的间距 */
+  }
+  
+  .example-block-question:last-child,
+  .example-block-answer:last-child {
+    margin-bottom: 0; /* 最后一个元素没有底部间距 */
+  }
+  
+  .example-block-label {
+    font-weight: bold; /* 标签加粗 */
+    color: #333; /* 标签颜色 */
+    margin-bottom: 5px; /* 标签和内容之间的间距 */
+  }
+  
+  .example-block-content {
+    color: #555; /* 内容颜色 */
+    line-height: 1.6; /* 行高，提高可读性 */
+    white-space: pre-wrap; /* 保留换行符 */
+  }
+  
