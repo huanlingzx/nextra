@@ -8,13 +8,13 @@ import './globals.css'
 export const metadata = {
   metadataBase: new URL('https://nextra.site'),
   title: {
-    template: '%s - Nextra'
+    template: '%s - 大语言模型使用指南'
   },
-  description: 'Nextra: the Next.js site builder',
-  applicationName: 'Nextra',
+  description: '',
+  applicationName: '大语言模型使用指南',
   generator: 'Next.js',
   appleWebApp: {
-    title: 'Nextra'
+    title: '大语言模型使用指南'
   },
   other: {
     'msapplication-TileImage': '/ms-icon-144x144.png',
@@ -30,12 +30,12 @@ export default async function RootLayout({ children }) {
     <Navbar
       logo={
         <div>
-          <b>Nextra</b>{' '}
-          <span style={{ opacity: '60%' }}>The Next Docs Builder</span>
+          <b>大语言模型使用指南</b>{' '}
+          <span style={{ opacity: '60%' }}></span>
         </div>
       }
       // Next.js discord server
-      chatLink="https://discord.gg/hEM84NMkRv"
+      // chatLink="https://discord.gg/hEM84NMkRv"
     />
   )
   const pageMap = await getPageMap()

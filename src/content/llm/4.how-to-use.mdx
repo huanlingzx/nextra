@@ -78,9 +78,9 @@ print(response.choices[0].message.content)
 <ParameterInfo
   name="最大输出长度 (Max Tokens)"
   description="限制模型生成的输出文本的最大长度（以 token 为单位）。一个 token 可以是一个词、一个标点符号或一个词的一部分。"
-  range="通常有一个上限。"
+  range="根据不同模型上限不一样，比如deepseek r1最多输出8192个token。"
   impact="控制输出的篇幅，达到限制时直接停止输出。"
-  suggestion="根据你期望的输出长度设置该参数。注意，提示词本身也会占用 token 数量，总的 token 数量（提示词 + 输出）通常有一个上限。"
+  suggestion="根据你期望的输出长度设置该参数。"
 />
 
 **如何选择参数？**

@@ -1,8 +1,4 @@
 export default {
-  index: '',
-  'get-started': '',
-  features: '',
-  themes: '',
-  advanced: '',
   llm: '大语言模型',
+  prompt: '提示词工程',
 }
